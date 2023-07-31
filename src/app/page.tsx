@@ -1,5 +1,6 @@
 import LeftSidebar from "./components/LeftSidebar"
-import AuthForm from "./auth-form"import { BsDot } from "react-icons/bs"
+import AuthForm from "./auth-form"
+import { BsDot } from "react-icons/bs"
 
 
 
