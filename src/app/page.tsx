@@ -2,6 +2,7 @@ import LeftSidebar from "./components/LeftSidebar"
 import { BsDot } from "react-icons/bs"
 
 
+
 const Home = () => {
   return (
     <div className='w-full h-full flex justify-center items-center relative bg-black'>
@@ -30,6 +31,7 @@ const Home = () => {
             </div>
             </div>
             </div>
+            
             <div className='flex flex-col'>
           {
             Array.from({length:5}).map((_,i)=>(
