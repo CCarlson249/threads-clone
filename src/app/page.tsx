@@ -1,6 +1,6 @@
 import LeftSidebar from "./components/LeftSidebar"
 import AuthForm from "./auth-form"
-import { BsDot, BsChat, BsShare } from "react-icons/bs"
+import { BsDot, BsChat, BsShare, BsThreeDots } from "react-icons/bs"
 import {AiOutlineRetweet, AiOutlineHeart} from 'react-icons/ai'
 import {ImStatsBars} from 'react-icons/im'
 
@@ -46,12 +46,15 @@ const Home = () => {
                 </div>
                 <div className='flex flex-col'>
                   <div className='flex items-center my-1'>
+                    <div className='flex items-center space-x-1'>
                     <div className='font-bold'>Username</div>
                     <div className='text-gray-500'>@username</div>
-                    <div>
+                    <div className='text-gray-500'>
                       <BsDot/>
                     </div>
-                    <div>1 hour ago</div>
+                    <div className='text-gray-500'>1 hour ago</div>
+                    <div><BsThreeDots/></div>
+                  </div>
                   </div>
                   <div className='text-white text-base my-1'>
                     lorem ipsum
