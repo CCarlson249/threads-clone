@@ -3,7 +3,7 @@ import { BsSearch } from 'react-icons/bs'
 
 const RightSection = () => {
   return (
-    <section className='fixed flex flex-col space-y-4 right-0'>
+    <section className='right-0 flex flex-col items-stretch h-screen px-6'>
         <div>
           <div className='relative w-full h-full'>
             <label htmlFor='searchBox' className='absolute top-0 left-0 h-full flex items-center justify-center'>
