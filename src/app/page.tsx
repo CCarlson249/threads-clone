@@ -4,6 +4,8 @@ import { BsDot, BsChat, BsShare, BsThreeDots } from "react-icons/bs"
 import {AiOutlineRetweet, AiOutlineHeart} from 'react-icons/ai'
 import {ImStatsBars} from 'react-icons/im'
 import Login from "./login"
+import MainComponent from "./components/MainComponent"
+
 
 
 const Home = () => {
@@ -77,6 +79,7 @@ const Home = () => {
             <Login />
           {/*<AuthForm />*/}
           </main>
+        <MainComponent />
         {/*<section>right section</section>*/}
       </div>
     </div>
